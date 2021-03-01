@@ -38,12 +38,12 @@ html {
 
 #leftwindow {
   margin-top: 80px;
-  min-width: 250px;
+  min-width: 300px;
 }
 
 #rightwindow {
   margin-top: 20px;
-  min-width: 250px;
+  min-width: 300px;
 }
 
 #namebox {
