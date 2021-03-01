@@ -1,0 +1,122 @@
+/* * Common Section */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+html {
+  animation: transitionIn 1s;
+}
+
+/* * Navbar Section */
+
+#navtitle {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 30px;
+}
+
+#navlist li {
+  font-family: "Montserrat";
+  font-weight: 200;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.1s;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#navlist li img {
+  width: 30px;
+  display: none;
+  height: 30px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+#navlist li:hover {
+  font-weight: 500;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-bottom: 2px white solid;
+}
+
+@media (max-width: 993px) {
+  #navlist li img {
+    display: flex;
+    background-color: grey;
+  }
+}
+
+/*  ********************* resume work */
+
+#wholewindow {
+  margin-top: 100px;
+  border: 2px black solid;
+}
+
+#leftwindow,
+#rightwindow {
+  margin-top: 50px;
+  border: 2px black solid;
+}
+
+#namebox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#profileimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px #003049 solid;
+  margin-top: 10px;
+}
+
+#skillsitem {
+  text-align: center;
+}
+
+#que {
+  font-family: "Roboto Slab";
+  font-weight: 900;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* * Common Section */
+
+.footer {
+  position: -webkit-sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+}
